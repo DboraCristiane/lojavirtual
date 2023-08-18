@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, h2,
+form button{
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    flex-direction: column;
+}
+
+header {
+    padding: 16px, 0;
+    background-color: rgb(23, 23, 77);
+    color: white;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.store-front, img {
+    height: 360px;
+    margin-top: 24px;
+}
+
+#about p {
+    display: block;
+} 
+
+button {
+    padding: 16px;
+    max-width: 100%;
+    background-color: blue;
+    color: aliceblue;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    max-width: 360px;
+    width: 100%;
+    margin: 16px, auto;
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    color:rgb(23, 23, 77);    
+    text-decoration: none;
+}
+
+@media screen and (min-widht: 768px) and (max-widht: 1024px) {
+    .container, .headercont {
+        display: block;
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-widht: 375px) and (max-widht: 667px) {
+    .container, .headercont {
+        display: block;
+        max-width: 10%;
+    }
+}
+
+@media screen and (min-widht: 414px) and (max-widht: 896px) {
+    .container, .headercont {
+        display: block;
+        max-width: 10%;
+    }
+}
+
+
