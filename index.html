@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 </head>
 <body>
     <header>
@@ -25,44 +26,52 @@
                 </ul>
             </nav>
         </header>
-            <div class="container">           
-                <img class= "store-front" src="./loja.jpg" alt="Fachada da Loja" />
-                <div>
-                    <h2> Sobre a Loja </h2>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati eaque tempora debitis eos cumque dolore nulla ea ad non cum, vero sit architecto impedit necessitatibus minus adipisci nesciunt omnis velit
-                    </p>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis nostrum sed, debitis, saepe quia mollitia autem perferendis accusantium magni consectetur ex! Molestiae provident excepturi architecto tempora eius fugiat quidem sunt
-                    </p>
-                </div>
-            </div>
-            <div class= "container">
-                    <h2>Produtos</h2>
-                    <ul>
-                            <li>
-                                <img src="./vestido.webp" alt="Vestido" width="360px"/>
-                                <h1>Vestido preto em crepe Tamanho único</h1>
-                                <button type= "submit"> Comprar </button>                                            
-                            </li>
-                            <li>
-                                <img src="./camisa.jpg" alt="Camisa" width="360px"/>
-                                <h1>Camisa branca bordada</h1>
-                                <button type= "submit"> Comprar </button>    
-                            </li>
-                            <li>
-                                <img src="./calca.jpg" alt="Calça" width="360px"/>
-                                <h1>Calça jogger em crepe susete</h1>
-                                <button type= "submit"> Comprar </button>    
-                            </li>
-                            <li>
-                                <img src="./saia.webp" alt="Calça" width="360px"/>
-                                <h1>Saia twed recortes linho</h1>
-                                <button type= "submit"> Comprar </button>    
-                            </li>    
-                    </ul>
-                </div>
-</body>
+        <body>
+            <div class="container">
+                <aside>
+                        <section class="Loja">
+                            <h2>Sobre a Loja</h2>                            
+                                <img src="loja.jpg" />
+                                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dicta nisi velit inventore, ad voluptatem recusandae cumque soluta doloribus omnis minus dolorem aut vitae fuga? Velit, obcaecati? Sed, qui quia?</h3>
+                        </section>
+                </aside>                
+                <aside>
+                    <section class="produtos">
+                        <h2>Produtos</h2>
+                        <a href="#">
+                            <img src="vestido.webp" alt="">
+                            <h3>Vestido preto em crepe</h3>
+                            <h3>R$ 69,90</h3>
+                            <button type="submit">Comprar</button>                      
+                        </a>
+                    </section>
+                    <section>
+                        <a href="#">
+                            <img src="calca.jpg" alt="">
+                            <h3>Calça jogger</h3>
+                            <h3>R$ 69,90</h3>
+                            <button type="submit">Comprar</button>
+                        </a>
+                    </section>
+                    <section>
+                        <a href="#">
+                            <img src="saia.webp" alt="">
+                            <h3>Saia envelope</h3>
+                            <h3>R$ 69,90</h3>
+                            <button type="submit">Comprar</button>
+                        </a>
+                    </section>
+                    <section>
+                        <a href="#">
+                            <img src="camisa.jpg" alt="">
+                            <h3>Camisa bordada</h3>
+                            <h3>R$ 69,90</h3>
+                            <button type="submit">Comprar</button>
+                        </a>
+                    </section>                    
+                </aside>              
+            </div>    
+        </body>
 <script src= "https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </body>
 </html>
