@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-header, h2,
-form button{
+header, h2 {
     font-family: 'Bungee', cursive;
     font-weight: normal;
     flex-direction: column;
@@ -28,57 +27,48 @@ header nav li a {
     text-decoration: none;
 }
 
-.store-front, img {
-    height: 360px;
-    margin-top: 24px;
-}
-
-#about p {
-    display: block;
-} 
-
 button {
-    padding: 16px;
+    padding: 8px;
     max-width: 100%;
     background-color: blue;
     color: aliceblue;
     align-items: center;
-    margin-top: 16px;
-    margin-left: 16px;
+    margin: auto;
 }
 
-.container {
+.container img {
+    max-width: 100%;
+    width: 320px;
+    height: 320px;
+}
+
+.container h3 {
     font-family: 'Roboto', sans-serif;
-    max-width: 360px;
-    width: 100%;
-    margin: 16px, auto;
-    display: block;
-    justify-content: space-between;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    color:rgb(23, 23, 77);    
+    font-size: 18px;
+    max-width: 100%;
+    width: 320px;
+    margin: 16px, auto; 
+    color:rgb(23, 23, 77); 
     text-decoration: none;
 }
 
 @media screen and (min-widht: 768px) and (max-widht: 1024px) {
-    .container, .headercont {
+    .container, header {
         display: block;
         max-width: 90%;
     }
 }
 
 @media screen and (min-widht: 375px) and (max-widht: 667px) {
-    .container, .headercont {
+    .container, header {
         display: block;
         max-width: 10%;
     }
 }
 
 @media screen and (min-widht: 414px) and (max-widht: 896px) {
-    .container, .headercont {
+    .container, header {
         display: block;
         max-width: 10%;
     }
 }
-
-
